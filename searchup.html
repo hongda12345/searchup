@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>searchup</title>
+    <script src="vue.js"></script>
+    <link rel="stylesheet" href="searchup.css">
+</head>
+<style>
+
+</style>
+<body>
+<div id="root">
+    <div class="select-box">
+        <custom-input @customevent="aa" :title="title"></custom-input>
+        <custom-list :list-data="datas" color="#008ed0" :state="state" @customevent="bb"></custom-list>
+    </div>
+</div>
+<script src="com.js"></script>
+<script src="searchup.js"></script>
+</body>
+</html>
